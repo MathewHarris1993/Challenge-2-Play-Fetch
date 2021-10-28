@@ -13,6 +13,7 @@ public class PlayerControllerX : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             Instantiate(dogPrefab, transform.position, dogPrefab.transform.rotation);
+    
         }
     }
 }
